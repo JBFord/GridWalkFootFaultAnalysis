@@ -11,8 +11,11 @@ General:
 This GUI has been designed to score side view videos of a mouse or rat walking on a grid surface. The user must define which video is to be scored. Once analysis is completed, the user can export results to an excel file.
 
 Functions:
+
 	"Select Video" - Pushing this button launches a dialog box to allow the user to select the video of interest
+ 
 	"Video Progress" bar - Visualizes the progress of the video. Clicking and draggin the tab changes the current time frame in the video
+ 
 	"Playback Rate" spinner - Select the playback rate (from 0.25x to 4x). Note, running the video above 1x may result in a delayed response from matlab in the "Play","Pause","Step Forward","Step Backward" features. If the video continues to play after "Pause" is selected, allow MATLAB a few seconds to catch up.
 	"Play" - Pushing this button plays the video at the defined Playback Rate
 	"Pause" - Pause the video playback
